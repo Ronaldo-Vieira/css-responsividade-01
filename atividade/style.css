@@ -1,0 +1,46 @@
+body{
+    background-color: #ccc;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(202, 134, 50);
+    color: white;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+}
+#textos{
+    display: flex;
+    justify-content: space-around;
+}
+#textos p {
+    width: 500vw;
+    margin: 20px;
+}
+#imagens{
+    display: flex;
+    justify-content: space-around;
+}
+#imagens img{
+    width: 40vw;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 53, 53);
+    color: whitesmoke;
+    height: 40px;
+    margin-top: 20px;
+}
+
+@media(max-width: 425px) {
+    #textos {
+        flex-direction: column;
+    }
+    #textos p {
+        width: auto;
+    }
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    background-color: #5F7285;
+    border: 2px solid #5F7285;
+}
+.secunda {
+    font-size: 22px;
+}
+p {
+    font-size: 14px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(202, 134, 50);
+}
+header h1 {
+    font-size: 105px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    opacity: 50% #FFF;
+}
+#textos{
+    display: flex;
+    justify-content: space-around;
+}
+#textos p {
+    width: 500vw;
+    margin: 20px;
+}
+#img-Meio{
+    width: 40vw;
+    margin: 20px;
+}
+#area-Imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#imagens img{
+    width: 30vw;
+    margin: 10px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 53, 53);
+    color: whitesmoke;
+    height: 40px;
+    margin-top: 20px;
+}
+@media(max-width: 768px) {
+    header h1 {
+        font-size: 20vw;
+    }
+    #textos {
+        flex-direction: column;
+        align-items: center;
+    }
+    #textos p {
+        width: auto;
+    }
+    #img-Meio{
+        width: 70vw;
+    }
+}
